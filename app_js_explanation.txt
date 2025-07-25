@@ -1,0 +1,13 @@
+app.js Explanation
+==================
+
+This file contains the JavaScript logic for the AI Play Ground app. Here’s what it does:
+
+1. Listens for a click event on the "Submit" button.
+2. When clicked, it reads the value from the input box (the user's prompt).
+3. If the input is empty, it displays a message asking the user to enter a prompt.
+4. If there is a prompt, it simulates an AI response by calling the `simulateAIResponse` function.
+5. The simulated response is displayed in the output area below the input box.
+6. The `simulateAIResponse` function simply echoes the user's prompt with a message, mimicking an AI reply.
+
+This setup allows users to interact with the UI and see a simulated AI response without needing a backend or API connection.
